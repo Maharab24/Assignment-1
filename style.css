@@ -339,3 +339,41 @@ font-weight: 500;
 
 
 }
+
+
+.section6{
+
+
+    margin: 50px 140px 0 140px;
+    background-image: url('resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 433px;
+
+
+
+}
+
+/* img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+} */
+
+.pera1{
+    text-align: right;
+    padding-right: 300px ;
+}
+
+.section7{
+    margin: 0 140px 0 140px;
+    background-image: url('resources/Rectangle\ 2.png');
+    background-size: cover;
+
+    height: 500px;
+    
+
+    
+}
+
+
+
