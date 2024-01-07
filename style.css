@@ -6,45 +6,96 @@
 */
 
 /* width 78% */
-header{
-    margin: 50px 140px 120px 140px ;
+header {
+    margin: 50px 140px 120px 140px;
     background-image: url('resources/Banner\ Image.png');
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom ;
+    background-position: bottom;
     align-items: center;
     width: 82%;
-    border-radius:16px ;
+    border-radius: 16px;
     height: 600px;
     color: green;
-   
+
 
 }
 
 
 
-.head-contain{
+.head-contain {
     text-align: center;
-   
-}
-#header-title{
-   
-text-align: center;
-font-family: Merriweather;
-font-size: 32px;
-padding-top: 100px;
-
-font-weight: 400;
-
 
 }
 
-#header-title-head{
-   
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
+#header-title {
 
-font-weight: 900;
-padding: 0 20%;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    padding-top: 100px;
+
+    font-weight: 400;
+
+
+}
+
+#header-title-head {
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+
+    font-weight: 900;
+    padding: 0 20%;
+}
+
+
+/* main part */
+
+main {
+    margin: 0 140px;
+}
+
+
+.main-container1 {
+    text-align: center;
+}
+
+.container1-h1 {
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 88px;
+
+    font-weight: 700;
+
+
+}
+
+
+.container1-p1 {
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 24px;
+
+    font-weight: 500;
+    
+
+}
+
+.container1-h3{
+    color: #070211;
+
+font-family: Inter;
+font-size: 48px;
+
+font-weight: 700;
+
+}
+
+.main-container1 img{
+  
+    margin-bottom: 100px;
 }
