@@ -99,3 +99,100 @@ font-weight: 700;
   
     margin-bottom: 100px;
 }
+
+.section2{
+
+    margin: 50px 140px 120px 140px;
+    background-image: url('resources/Vectorrr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    align-items: center;
+    width: 82%;
+    border-radius: 16px;
+    height: 600px;
+
+
+}
+
+.container2{
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 126px;
+    margin-bottom: 150px;
+}
+
+.container2 .container2-h1{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+
+font-weight: 900;
+width: 642px;
+letter-spacing: 7.04px;
+}
+
+
+.container2 .container2-p1{
+
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+width: 697px;
+}
+
+button{
+    border-radius: 8px;
+background: #F00;
+color: white;
+
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: 0;
+font-weight: 900;
+font-size: large;
+cursor: pointer;
+transition: all 1s;
+}
+
+button:hover
+{
+    background-color: white;
+    color: black;
+
+}
+
+.section3{
+
+    margin: 50px 140px 120px 140px;
+   background-color: rgb(247, 224, 224);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    align-items: center;
+    width: 82%;
+    border-radius: 16px;
+    height: 600px;
+    text-align: center;
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+
+
+}
+
+span{
+    color: red;
+
+}
+.container3{
+    padding:100px 10% ;
+}
+#button2{
+    margin: 50px 0;
+}
