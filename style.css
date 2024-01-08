@@ -6,6 +6,9 @@
 */
 
 /* width 78% */
+*{
+    margin: 0;
+}
 header {
     margin: 50px 140px 120px 140px;
     
@@ -107,7 +110,9 @@ font-weight: 700;
 .section2{
 
     margin: 50px 140px 120px 140px;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+   
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-image:  url('../resources/Vectorrr.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -221,11 +226,17 @@ span{
     color: red;
 
 }
-.container3{
-    padding:100px 10% ;
+
+.section3{
+    
     background-image: linear-gradient(rgb(250, 158, 158),white);
     border-radius: 20px;
 }
+
+.container3{
+   padding-top: 100px;
+    border-radius: 20px;
+} 
 #button2{
     margin: 50px 0;
 }
@@ -576,4 +587,11 @@ form{
     margin-top: 30px;
     max-width: 700px;
   
+}
+
+
+footer{
+    
+    background-color: black;
+   height: 600px;
 }
