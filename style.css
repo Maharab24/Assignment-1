@@ -60,9 +60,9 @@ header {
 
 /* main part */
 
-main {
+/* main {
     margin: 0 140px;
-}
+} */
 
 
 .main-container1 {
@@ -179,6 +179,7 @@ font-weight: 400;
 line-height: 30px; /* 166.667% */
 width: 697px;
 max-width: 450px;
+padding-bottom: 20px;
 }
 
 button{
@@ -211,7 +212,7 @@ button:hover
   
  
     align-items: center;
-    width: 82%;
+    /* width: 82%; */
     border-radius: 16px;
     height: 600px;
     text-align: center;
@@ -315,6 +316,7 @@ font-size: 20px;
 
 font-weight: 400;
 width: 276px;
+padding-bottom: 10px;
 
 }
 
@@ -448,17 +450,21 @@ width: 896px;
 
 .section9{
 
-    margin: 20px 100px 100px 140px;
+   margin: 20px 140px;
   
     border-radius: 16px;
-    justify-content: space-around;
+  
+    
 
 
 }
 .s9-container1{
     display: flex;
-    gap: 20px;
-  padding: 10px ;
+   gap: 20px;
+  padding: 10px  ;
+  justify-content: space-around;
+
+  
 
 
    
@@ -469,7 +475,9 @@ width: 896px;
 .s9-container2{
     display: flex;
     gap: 20px;
-    padding: 10px ;
+   padding: 10px  ;
+   justify-content: space-around;
+ 
 }
 
 .s9-container1-img1:hover{
@@ -594,4 +602,7 @@ footer{
     
     background-color: black;
    height: 600px;
+}
+.f-container1 h1{
+color: white;
 }
