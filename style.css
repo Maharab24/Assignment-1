@@ -8,7 +8,10 @@
 /* width 78% */
 header {
     margin: 50px 140px 120px 140px;
-    background-image: url('resources/Banner\ Image.png');
+    
+    background-image:  url('resources/Banner\ Image.png');
+    border-radius: 16px;
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -25,6 +28,7 @@ header {
 
 .head-contain {
     text-align: center;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 
 }
 
@@ -103,7 +107,7 @@ font-weight: 700;
 .section2{
 
     margin: 50px 140px 120px 140px;
-    background-image: url('resources/Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -118,14 +122,17 @@ font-weight: 700;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
- 
+    
+    
+    
+   
    
 }
 
 #container2-img{
   
-  height: 350px;
+    width: 100%;
+    padding: 68px 0;
  
 }
 .container2-part2{
@@ -142,7 +149,7 @@ font-weight: 700;
     padding-top: 126px;
    padding-left: 50px ;
    padding-right: 100px;
-  
+   
     max-width: 200px;
 }
 
@@ -152,7 +159,7 @@ font-family: Merriweather;
 font-size: 64px;
 
 font-weight: 900;
-width: 642px;
+width: 600px;
 letter-spacing: 7.04px;
 }
 
@@ -216,6 +223,8 @@ span{
 }
 .container3{
     padding:100px 10% ;
+    background-image: linear-gradient(rgb(250, 158, 158),white);
+    border-radius: 20px;
 }
 #button2{
     margin: 50px 0;
@@ -369,9 +378,59 @@ font-weight: 500;
     background-image: url('resources/Rectangle\ 2.png');
     background-size: cover;
 
-    height: 300px;
+    height: 350px;
+
+}
+#c-7-img1{
+    width: 450px;
+    
+    height: 350px;
+}
+.container7{
+    
+    margin-left: 50px;
+}
+
+
+
+.container8{
+    display: block;
+    padding-left: 140px;
+    padding-top: 150px;
+}
+
+.best-gift{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+
+font-weight: 500;
+
 
 }
 
+.c8-h2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+
+
+}
+
+.c8-des{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+width: 896px;
+
+    
+}
 
 
